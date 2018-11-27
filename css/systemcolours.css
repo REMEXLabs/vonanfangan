@@ -1,0 +1,198 @@
+/* 
+This CSS file is made available under a Creative Commons Attribution 4.0 International License. 
+Copyright Hochschule der Medien (HdM) / Stuttgart Media University, 2017.
+*/
+@import url("gtx_hdm12ax_layout.css");
+
+body {
+  font-family: sans-serif;
+  background-color: Window; color: WindowText;
+}
+header {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid ActiveBorder;
+}
+
+nav {
+  background-color: ScrollBar;
+  color: MenuText;
+}
+nav h2 {
+  background-color: transparent;
+  color: MenuText;
+}
+/*nav > ul {
+  color: inherit;
+  background-color: transparent;
+}*/
+nav ul, nav ul li {
+  /* see gtx_hdm12ax_layout.css */
+}
+nav ul li {
+  /* see gtx_hdm12ax_layout.css */
+  color: inherit;
+  background-color: transparent; 
+}
+
+nav li.active a {
+  background-color: InactiveBorder;
+  color: CaptionText;
+}
+nav ul li.active a:hover, nav ul li.active a:focus, nav ul li a:active {
+  /*border-color: ActiveBorder;*/
+  border-color: InactiveBorder;
+  background-color: InactiveBorder;
+  color: CaptionText;
+}
+
+nav a:link,
+nav a:visited, 
+nav a:hover, nav a:focus,
+nav a:active {
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:visited {
+  border-color: Menu;
+  background-color: Menu;
+  color: MenuText;
+}
+
+nav a:hover, nav a:focus,
+nav a:active {
+  border-color: Scrollbar;
+  /*border-color: ActiveCaption;*/
+  border-radius: .6em;
+}
+
+a:link, a:visited {
+  background-color: ButtonFace;
+  color: ButtonText;
+}
+
+a:hover, a:focus, a:active {
+  background-color: Highlight;
+  color: ButtonText;
+  text-decoration: none;
+}
+
+footer {
+  clear: left;
+  border-color: ThreeDDarkShadow;
+  border-style: solid;
+  color: WindowText;
+  background-color: ThreeDFace;
+}
+
+footer a:link, footer a:visited {
+  background-color: Menu;
+  color: MenuText;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  background-color: Highlight;
+  color: ButtonText;
+}
+
+
+main ul li {
+  list-style-type: square;
+}
+
+kbd, samp {
+  font: menu;
+}
+
+kbd {
+  background-color: ButtonFace;
+  color: ButtonText;
+  border-width: 2px;
+  border-style: solid;
+  border-color: ThreeDLightShadow ButtonShadow ButtonShadow ThreeDLightShadow; 
+  padding: .5px 2px;
+}
+
+samp {
+  background-color: Menu;
+  color: MenuText;
+  font-size: .9em;
+  padding: 1px 2px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+th, td {
+  border: 1px solid ActiveBorder;
+  padding: 4px 8px;
+}
+table caption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+tbody th {
+  text-align: left;
+}
+
+
+@media (min-width:320px) {
+  main, nav {
+    float: none;
+  }
+  header, main {
+    padding-left: 5px;
+  }
+  nav h2 {
+    display: block;
+  }
+  footer {
+    padding: 1px 0px 1px 5px;
+    margin-top: 10px;
+    border: none;
+  }
+  footer p { margin-top: 2px; margin-bottom: 2px; padding: 0;}
+  a.skiplink, a.skiplink:hover, a.skiplink:focus, a.skiplink:active {
+    background:transparent;
+    color: MenuText;
+  }
+} /* @media (min-width:320px) */
+
+
+@media (min-width:801px) {
+  main {
+    width: 78%;
+    float: left;
+    clear: right;
+    padding-left: 10px;
+    background-color: transparent;
+  }
+  header { padding-top: 12px; }
+  nav {
+    min-width: 15em;
+    max-width: 20em;
+    float: left; 
+    clear: left;
+  }
+  nav h2 {
+    display: none;
+  }
+  footer {
+    padding: 4px 5px 4px 10px;
+    margin-top: 40px;
+  }
+
+  a.skiplink {
+    background: transparent;
+    color: transparent;
+  }
+  a.skiplink:focus {
+    background:transparent;
+    color: MenuText;
+  }
+} /* end @media (min-width:801px) */
+
+/* derived from https://github.com/cstrobbe/languagelearning/blob/gh-pages/css/systemcolours.css and relicensed by the author */
