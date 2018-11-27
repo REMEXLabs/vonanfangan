@@ -222,7 +222,6 @@ iframe[src^='https://www.youtu'], iframe[src^='https://player.vimeo.com'] {
 
 .imagefiller { margin-top: 150px; margin-bottom: 50px; text-align: center; }
 
-
 /* "Media Queries: How to target desktop, tablet and mobile?": https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile 
  & query https://duckduckgo.com/?q=tablet+screen+size+width+pixels&ia=web */
 @media (min-width:320px) {
@@ -261,7 +260,9 @@ iframe[src^='https://www.youtu'], iframe[src^='https://player.vimeo.com'] {
     padding-bottom: 20px;
     background-color: transparent;
   }
-  header { padding-top: 12px; }
+  header { padding-top: 12px;
+    padding-bottom: 5px;
+  }
   nav {
     min-width: 15em;
     max-width: 20em;
@@ -285,5 +286,9 @@ iframe[src^='https://www.youtu'], iframe[src^='https://player.vimeo.com'] {
     background:transparent;
     color: white;
   }
-} /* end @media (min-width:801px) */
 
+  header, nav, main, footer {
+    padding-left: 20px;
+  }
+
+} /* end @media (min-width:801px) */
