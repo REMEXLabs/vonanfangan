@@ -24,24 +24,94 @@
     <p>Die Website &raquo;Digitale Barrierefreiheit von Anfang an&laquo; zeigt anhand von Videos,
       was man beachten sollte, wenn man Webseiten gestaltet. Zur Zeit sind folgende Videos verfügbar:
     </p>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=5NiZd0UmzmE">Seitentitel &amp; Überschriften</a>:<br />
-        Dieses Video erklärt, was man bei Webseiten bezüglich Seitentitel und Überschriften beachten muss, damit die <abbr>WCAG</abbr> 2.1-Anforderungen erfüllt sind.
-        Behandelte <abbr>HTML</abbr>-Tags: <code>title</code>, <code>main</code>, <code>section</code>,
-        <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code>.
-      </li>
-      <li><a href="https://www.youtube.com/watch?v=EHufyPdKPYo">Seitenstruktur &amp; Landmarks</a>:<br />
-        Dieses Video erklärt, was man bei Webseiten bezüglich Seitenstruktur und Landmarks beachten muss, damit die <abbr>WCAG</abbr> 2.1 Anforderungen erfüllt sind.
-        Außerdem wird der Skip-Link erklärt.
-        <abbr>HTML</abbr>-Tags: <code>header</code>, <code>nav</code>, <code>main</code>, <code>section</code>, <code>article</code>, <code>form</code>, <code>aside</code>, <code>footer</code>.
-      </li>
-      <li><a href="https://www.youtube.com/watch?v=RAmoNrujJFA">Einsatz von Farben</a>:<br />
-        Dieses Video erklärt, was man beim Einsatz von Farben beachten muss, damit die <abbr>WCAG</abbr> 2.1 Anforderungen erfüllt sind..
-      </li>
-      <!--
-      <li><a href=""></a>.</li>
-      -->
-    </ul>
+
+    <table>
+      <caption>Videos in der Reihe »Digitale Barrierefreiheit von Anfang an«</caption>
+      <thead>
+        <tr>
+          <th scope="col" id="th-video">Video</th>
+          <th scope="col" id="th-beschreibung">Beschreibung</th>
+          <th scope="col" id="th-tags" abbr="HTML und CSS">Behandelte <abbr>HTML</abbr>-Tags <abbr title="beziehungsweise">bzw.</abbr> <abbr>CSS</abbr>-Properties</th>
+          <th scope="col" id="th-wcag" abbr="WCAG">Relevante <abbr>WCAG</abbr> 2.1-Erfolgskriterien</th>
+          <th scope="col" id="th-mehr" abbr="Mehr">Weitere Bemerkungen und Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td headers="th-video" scope="row"><a href="https://www.youtube.com/watch?v=5NiZd0UmzmE">Seitentitel &amp; Überschriften</a></td>
+          <td headers="th-beschreibung" scope="row">Dieses Video erklärt, was man bei Webseiten bezüglich Seitentitel und Überschriften beachten muss, damit die <abbr>WCAG</abbr> 2.1-Anforderungen erfüllt sind.</td>
+          <td headers="th-tags" scope="row">
+            <ul>
+              <li><code>title</code></li>
+              <li><code>main</code></li>
+              <li><code>section</code></li>
+              <li><code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code>.</li>
+            </ul>
+          </td>
+          <td headers="th-wcag" scope="row">
+            <!-- 1.3.1, 1.3.2, 1.3.6, 2.4.1, 2.4.5, 2.4.10, 3.2.3 -->
+            <ul>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships" hreflang="en" lang="en">1.3.1: Info and Relationships (A)</a></li>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#meaningful-sequence" hreflang="en" lang="en">1.3.2: Meaningful Sequence (A)</a></li>
+              <li class="wcag-level-AAA"><a href="https://www.w3.org/TR/WCAG21/#identify-purpose" hreflang="en" lang="en">1.3.6: Identify Purpose (AAA)</a></li>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks" hreflang="en" lang="en">2.4.1: Bypass Blocks (A)</a></li>
+              <li class="wcag-level-AA"><a href="https://www.w3.org/TR/WCAG21/#multiple-ways" hreflang="en" lang="en">2.4.5: Multiple Ways (AA)</a></li>
+              <li class="wcag-level-AAA"><a href="https://www.w3.org/TR/WCAG21/#section-headings" hreflang="en" lang="en">2.4.10: Section Heading (AAA)</a></li>
+              <li class="wcag-level-AA"><a href="https://www.w3.org/TR/WCAG21/#consistent-navigation" hreflang="en" lang="en">3.2.3: Consistent Navigation (AA)</a></li>
+            </ul>
+          </td>
+          <td headers="th-mehr" scope="row"></td>
+        </tr>
+        <tr>
+          <td headers="th-video" scope="row"><a href="https://www.youtube.com/watch?v=EHufyPdKPYo">Seitenstruktur &amp; Landmarks</a></td>
+          <td headers="th-beschreibung" scope="row">Dieses Video erklärt, was man bei Webseiten bezüglich Seitenstruktur und Landmarks beachten muss, damit die <abbr>WCAG</abbr> 2.1 Anforderungen erfüllt sind.
+            Außerdem wird der Skip-Link erklärt.
+          </td>
+          <td headers="th-tags" scope="row">
+            <ul>
+              <li><code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code></li>
+              <li><code>section</code>, <code>article</code>, <code>aside</code></li>
+              <li><code>form</code></li>
+            </ul>
+          </td>
+          <td headers="th-wcag" scope="row">
+            <ul>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships" hreflang="en" lang="en">1.3.1: Info and Relationships (A)</a></li>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#bypass-blocks" hreflang="en" lang="en">2.4.1: Bypass Blocks (A)</a></li>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#page-titled" hreflang="en" lang="en">2.4.2: Page Titled (A)</a></li>
+              <li class="wcag-level-AA"><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels" hreflang="en" lang="en">2.4.6: Headings and Labels (AA)</a></li>
+              <li class="wcag-level-AAA"><a href="https://www.w3.org/TR/WCAG21/#section-headings" hreflang="en" lang="en">2.4.10: Section Heading (AAA)</a></li>
+            </ul>
+          </td>
+          <td headers="th-mehr" scope="row"></td>
+        </tr>
+        <tr>
+          <td headers="th-video" scope="row"><a href="https://www.youtube.com/watch?v=RAmoNrujJFA">Einsatz von Farben</a></td>
+          <td headers="th-beschreibung" scope="row">Dieses Video erklärt, was man beim Einsatz von Farben beachten muss, damit die <abbr>WCAG</abbr> 2.1 Anforderungen erfüllt sind.</td>
+          <td headers="th-tags" scope="row">
+            <ul>
+              <li><code>color</code>, <code>background-color</code></li>
+            </ul>
+          </td>
+          <td headers="th-wcag" scope="row">
+            <ul>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#sensory-characteristics" hreflang="en" lang="en">1.3.3: Sensory Characteristics (A)</a></li>
+              <li class="wcag-level-A"><a href="https://www.w3.org/TR/WCAG21/#use-of-color" hreflang="en" lang="en">1.4.1: Use of Color (A)</a></li>
+              <li class="wcag-level-AA"><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum" hreflang="en" lang="en">1.4.3: Contrast (Minimum) (AA)</a></li>
+              <li class="wcag-level-AAA"><a href="https://www.w3.org/TR/WCAG21/#contrast-enhanced" hreflang="en" lang="en">1.4.6: Contrast (Enhanced) (AAA)</a></li>
+              <li class="wcag-level-AA"><a href="https://www.w3.org/TR/WCAG21/#non-text-contrast" hreflang="en" lang="en">1.4.11: Non-text Contrast (AA)</a></li>
+          </td>
+          <td headers="th-mehr" scope="row">
+            <ul>
+              <li><a href="https://contrast-ratio.com/">contrast-ratio.com</a></li>
+              <li><a href="http://contrast-finder.tanaguru.com/">Tanaguru Contrast-Finder</a></li>
+              <li><a href="https://developer.paciellogroup.com/resources/contrastanalyser/">Colour Contrast Analyser (<abbr>CCA</abbr>)</a></li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
     <p>Diese Videos sind unter der Lizenz 
       <a href="https://creativecommons.org/licenses/by/4.0/legalcode.de">Creative Commons — Namensnennung 4.0 International — <abbr>CC</abbr> BY 4.0</a>
       verfügbar.
