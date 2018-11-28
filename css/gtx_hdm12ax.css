@@ -252,6 +252,12 @@ iframe[src^='https://www.youtu'], iframe[src^='https://player.vimeo.com'] {
 
 @media (max-width:768px) {
   .imagefiller { display: none; }
+  td ul li { list-style-type: none;
+    background-color: yellow;
+  }
+  td ul {
+    padding-left: 0px;
+  }
 } /* @media (max-width:768px) */
 
 
