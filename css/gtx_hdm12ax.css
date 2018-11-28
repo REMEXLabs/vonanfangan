@@ -138,7 +138,11 @@ table {
 }
 th, td {
   border: 1px solid #666;
-  padding: 4px 8px;
+  padding: 4px 6px;
+}
+td ul {
+  margin: 0px auto 0px auto;
+  padding-left: 12px;
 }
 table caption {
   margin-top: 10px;
@@ -220,7 +224,7 @@ iframe[src^='https://www.youtu'], iframe[src^='https://player.vimeo.com'] {
   border: 1px solid transparent; /* to replace the frameborder attribute; 'none' did not have the intended effect */
 }
 
-.imagefiller { margin-top: 150px; margin-bottom: 50px; text-align: center; }
+.imagefiller { margin-top: 50px; margin-bottom: 10px; text-align: center; }
 
 /* "Media Queries: How to target desktop, tablet and mobile?": https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile 
  & query https://duckduckgo.com/?q=tablet+screen+size+width+pixels&ia=web */
